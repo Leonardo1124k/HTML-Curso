@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Leonardo Pessoni">
+    <meta name="description" content="This project reflects my learning on a course of HTML">
+    <title> Lesson 10 </title>
+    <link rel="icon" href="img/heart_Icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+    <header>
+        <h1> Bem-vindo ao Le Prado Restaurante </h1>
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li><a href="#about"> Sobre a LPR </a></li>
+                <li><a href="#menu">Nosso Menu </a></li>
+                <li><a href="horario.html">Horário que atuamos</a></li>
+                <li><a href="contact.html">Contate-nos</a> </li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="img/tacos_1_400x267.png" alt="Imagem de Tacos" width="400" height="267" title="O que vendemos">
+            <figcaption> Tacos com uma bebida </figcaption>
+        </figure>
+
+    </header>
+    <hr>
+    <main>
+        <section id="about">
+            <h2> Sobre a <abbr title="Le Prado Restaurante">LPR </abbr></h2>
+            <p> A <abbr title="Le Prado Restaurant"> LPR </abbr> foi fundada em 2025. Nossa loja foi criada a partir do
+                nosso amor por tacos mexicanos &#x1F32E;. Esperamos que nosso restaurante seja <strong> único e interessante </strong> como um lugar
+                de lazer na cidade de Franca.</p>
+            <aside>
+                <h3> Curiosidade </h3>
+                <details>
+                    <summary> Quando os tacos começaram a ser consumidos no Brasil? </summary>
+                    <p>Os tacos começaram a ser consumidos no Brasil nos anos 1990, com os primeiros restaurantes
+                        mexicanos. A popularização maior veio a partir dos anos 2010, com a chegada de redes como Taco
+                        Bell e a adaptação ao paladar brasileiro. Desde então, tornaram-se uma opção comum e apreciada
+                        em várias regiões do país. (Fonte: <a href="https://chatgpt.com/" target="_blank">OpenAI</a>)
+                    </p>
+                </details>
+            </aside>
+        </section>
+        <hr>
+
+        <article id="menu">
+            <h2> Nosso Menu</h2>
+
+            <table>
+                <caption> Cardápio LPR </caption>
+                <thead>
+                    <tr>
+                        <th>Tacos </th>
+                        <th>Quantidade </th>
+                        <th> Preço </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" rowspan="3"> Crocante </th>
+                        <td> 1 </td>
+                        <td> R$4,50 </td>
+                    </tr>
+                    <tr>
+                        <td> 2 </td>
+                        <td> R$6,50 </td>
+                    </tr>
+                    <tr>
+                        <td> 3 </td>
+                        <td> R$8,00 </td>
+                    </tr>
+                    <tr>
+                        <th rowspan="3"> Macio </th>
+                        <td> 1 </td>
+                        <td> R$5,50 </td>
+                    </tr>
+
+                    <tr>
+                        <td> 2 </td>
+                        <td> R$6,80 </td>
+                    </tr>
+
+                    <tr>
+                        <td> 3 </td>
+                        <td> R$7,50 </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">
+                            Batata e Salsa por R$2
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <p> <a href="#">Voltar para cima </a></p>
+        </article>
+    </main>
+    <hr>
+<footer>
+    <p>Copyright &copy; Le Prado Restaurante </p>
+</footer>
+
+</body>
+
+</html>

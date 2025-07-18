@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Leonardo Pessoni">
+    <meta name="description" content="This project reflects my learning on a course of HTML">
+    <title> Contact </title>
+    <link rel="icon" href="img/heart_Icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1> Contate-nos </h1>
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="index.html#about"> Sobre a LPR </a></li>
+                <li><a href="index.html#menu">Nosso menu </a></li>
+                <li><a href="horario.html">Horário que atuamos </a> </li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="img/tacos_2_400x260.png" alt="Imagem de Tacos saborosos" width="400" height="260"
+                title="Nossos tacos">
+            <figcaption> Tacos saborosos </figcaption>
+        </figure>
+    </header>
+    <hr>
+    <main>
+        <article>
+            <h2> Nosso formulário para contato </h2>
+            <div>
+                <form action="https://httpbin.org/get" method="get">
+                    <fieldset>
+                        <legend>
+                            Nos envie uma mensagem
+                        </legend>
+                        <p>
+                            <label for="fullName">Nome completo:</label>
+                            <input type="text" name="fullName" id="fullName" autocomplete="on" placeholder="Seu nome" required>
+                        </p>
+                        <p>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="Seu email"  autocomplete="on" required>
+                        </p>
+
+                        <label for="message">Mensagem:</label>
+                        <br>
+                        <textarea name="message" id="message" required cols="30" rows="5"
+                            placeholder="Digite aqui"></textarea>
+                    </fieldset>
+                    <button type="submit"> Enviar </button>
+                    <button type="reset"> Limpar </button>
+                </form>
+            </div>
+            <div>
+                <h2> Nossa localização</h2>
+                <address>Rua Eunice Carmen Gonçalves Rodrigues, <br>
+                    Jardim Palestina, 14402-334, <br>
+                    Franca-SP.</address>
+                <p><em>Telefone: <a href="tel:+16994549268">16 99454-9268</a></em>
+                </p>
+            </div>
+        </article>
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright &copy; Le Prado Restaurante </p>
+    </footer>
+</body>
+
+</html>
